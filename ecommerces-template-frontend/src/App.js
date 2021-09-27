@@ -1,15 +1,16 @@
-import Header from './components/Header'
+import StyledHeader from './components/Header'
 import Footer from './components/Footer'
 import Body from './components/Body'
+import { Header } from 'semantic-ui-react'
 
 const App = () => {
   return (
     <>
-      <Header />
+      <StyledHeader />
       <Body>
-        <h1>Welcome to Shop</h1>
+          <Header as='h2'>Welcome to Shop</Header>
       </Body>
-      <Footer />
+      <Footer/>
     </>
   );
 }
