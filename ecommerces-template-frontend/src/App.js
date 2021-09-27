@@ -4,7 +4,8 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
-      <h1>Welcome to pro shop</h1>
+      <Header />
+      <Footer />
     </>
   );
 }
